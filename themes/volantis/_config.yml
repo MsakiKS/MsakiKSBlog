@@ -225,7 +225,7 @@ sidebar:
       header:
         icon: fas fa-folder-open
         title: 文章分类
-        url: /blog/categories/
+        url: categories/
 
     # 网站标签
     tagcloud:
