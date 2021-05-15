@@ -102,8 +102,8 @@ theme: volantis
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: git@github.com:MsakiK/MsakiKS.blog
+  type: git 
+  repo: https://github.com/MsakiKS/MsakiKS.github.io.git
   branch: master
 
 issues: 

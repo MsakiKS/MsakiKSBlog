@@ -3,7 +3,7 @@ title: About
 date: 2021-05-12 22:52:20
 ---
 <div align=center>
-<a href="https://imgtu.com/i/gBgGM4"><img src="https://z3.ax1x.com/2021/05/13/gBgGM4.png" alt="gBgGM4.png" border="0" style="zoom:10%;" /></a>
+<img src="https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/klee.png" border="0" style="zoom:10%;" /></a>
 </div>
 
 # 我
@@ -14,7 +14,8 @@ date: 2021-05-12 22:52:20
   - S：为斯卡蒂献出心脏！
   
 # 标签
-计科专业的Fw学生、大学教育的漏网之鱼、母胎就开始Solo这个世界的勇士、Pixiv咸鱼画师（ID：1158112005）
+计科专业的Fw学生、大学教育的漏网之鱼  
+母胎就开始Solo这个世界的勇士、Pixiv咸鱼画师（ID：1158112005）
 
 # 目标：
 - Debug the world！
