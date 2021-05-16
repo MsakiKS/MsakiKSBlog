@@ -19,7 +19,7 @@ info:
 navbar:
   visiable: always # always, auto;常驻、自动
   logo: # choose [img] or [icon + title]
-    img: https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/BigLoGo.png # 顶栏logo 
+    img: https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/smallLogo.PNG # 顶栏logo 
     icon:
     title:
   menu:
@@ -48,8 +48,8 @@ cover:
     home: true
     archive: true
     others: false # can be written in front-matter 'cover: true'
-  background: https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/BlogBackground_pkoe.jpg
-  logo: https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/smallLogo.PNG
+  background: https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/89703294_p0.jpg
+  logo: https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/BigLoGo.png
   title: # 'Vallhala小酒馆'
   subtitle: '调制代码，改变人生'
   search: '寻找你的故事…' # 搜索栏提示
