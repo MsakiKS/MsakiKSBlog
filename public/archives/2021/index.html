@@ -104,7 +104,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <body>
     
 
-<header id="l_header" class="l_header always shadow blur "  >
+<header id="l_header" class="l_header always shadow blur show"  >
   <div class='container'>
   <div id='wrapper'>
     <div class='nav-sub'>
@@ -323,14 +323,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div id="l_cover">
   
     
-        <div id="half" class='cover-wrapper  dock' style="display: ;">
+        <div id="full" class='cover-wrapper  dock' style="display: none;">
           
             <div class='cover-bg lazyload placeholder' data-bg="https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/89703294_p0.jpg"></div>
           
           <div class='cover-body'>
   <div class='top'>
     
-      <img no-lazy class='logo' src='https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/BigLoGo.png'/>
+      <img no-lazy class='logo' src='https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/VallhallaLoGo.png'/>
     
     
     
@@ -509,37 +509,45 @@ Yes，indeed.从魂1那声“Yes，indeed.”，到魂3唤醒主角的钟声。�
       <div class="social-wrapper">
         
           
-            <a href="/atom.xml"
-              class="social fas fa-rss flat-btn"
+            <a href="https://y.qq.com/n/yqq/playlist/7994877968.html/"
+              class="social  flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
+              
+                <img src="https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/Icon/Steam.png" class="lazyload" data-srcset="https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/Icon/Steam.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII="/>
+              
+            </a>
+          
+        
+          
+            <a href="https://www.pixiv.net/users/16929871"
+              class="social  flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+                <img src="https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/Icon/Pixiv.png" class="lazyload" data-srcset="https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/Icon/Pixiv.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII="/>
+              
+            </a>
+          
+        
+          
+            <a href="https://github.com/MsakiKS"
+              class="social  flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+                <img src="https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/Icon/Github.png" class="lazyload" data-srcset="https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/Icon/Github.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII="/>
               
             </a>
           
         
           
             <a href="mailto:1158112005@qq.com"
-              class="social fas fa-envelope flat-btn"
+              class="social  flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
               
-            </a>
-          
-        
-          
-            <a href="https://github.com/MsakiK/MsakiK.blog/"
-              class="social fab fa-github flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="https://y.qq.com/n/yqq/playlist/7994877968.html/"
-              class="social fas fa-headphones-alt flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
+                <img src="https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/Icon/Email.png" class="lazyload" data-srcset="https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/Icon/Email.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII="/>
               
             </a>
           
@@ -603,14 +611,14 @@ Yes，indeed.从魂1那声“Yes，indeed.”，到魂3唤醒主角的钟声。�
   // header 这里无论是否开启pjax都需要
   var l_header=document.getElementById("l_header");
   
-  l_header.classList.remove("show");
+  l_header.classList.add("show");
   
   
     // cover
     var cover_wrapper=document.querySelector('.cover-wrapper');
     
-    cover_wrapper.id="half";
-    cover_wrapper.style.display="";
+    cover_wrapper.id="none";
+    cover_wrapper.style.display="none";
     
   
 </script>

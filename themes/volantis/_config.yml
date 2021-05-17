@@ -46,10 +46,10 @@ cover:
   layout_scheme: dock # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
   display:
     home: true
-    archive: true
+    archive: false
     others: false # can be written in front-matter 'cover: true'
   background: https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/89703294_p0.jpg
-  logo: https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/BigLoGo.png
+  logo: https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/VallhallaLoGo.png
   title: # 'Vallhala小酒馆'
   subtitle: '调制代码，改变人生'
   search: '寻找你的故事…' # 搜索栏提示
@@ -198,14 +198,14 @@ sidebar:
       subtitle: Debug the World!
       jinrishici: true # 诗词循环组件
       social:
-        - icon: fas fa-rss
-          url: /atom.xml
-        - icon: fas fa-envelope # 发送邮件
-          url: mailto:1158112005@qq.com
-        - icon: fab fa-github # 个人Github
-          url: https://github.com/MsakiK/MsakiK.blog/
-        - icon: fas fa-headphones-alt # 个人歌单
+        - img: https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/Icon/Steam.png # 个人Steam主页
           url: https://y.qq.com/n/yqq/playlist/7994877968.html/
+        - img: https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/Icon/Pixiv.png   
+          url: https://www.pixiv.net/users/16929871
+        - img: https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/Icon/Github.png # 个人Github
+          url: https://github.com/MsakiKS
+        - img: https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/Icon/Email.png # 发送邮件
+          url: mailto:1158112005@qq.com
 
     # 文章目录//仅在文章中显示
     toc:
