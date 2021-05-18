@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Vallhala小酒馆
+title: Vallhalla小酒馆
 subtitle: ''
 description: ''
 keywords:
@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
 highlight:
@@ -109,3 +109,11 @@ deploy:
 issues: 
   enable: true
   js:
+
+
+favicon:
+  small: /images/klee.png
+  medium: /images/klee.png
+  apple_touch_icon: /images/klee.png
+  safari_pinned_tab: /images/klee.png
+  #android_manifest: /manifest.json

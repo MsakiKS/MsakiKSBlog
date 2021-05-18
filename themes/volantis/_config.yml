@@ -38,6 +38,7 @@ navbar:
     - name: 关于
       icon: fas fa-info-circle
       url: about/
+
   search: '寻找你的故事…'   # 搜索栏提示
 
 # 封页
@@ -56,28 +57,28 @@ cover:
   features:
     - name: 月球爆破
       icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg
-      url: /v4/getting-started/
+      img: https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/Cocktail/Moonblast.png
+      url: http://106.53.147.49:5050/2021/05/18/Moonblast/
     - name: 灰白古庙
       icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f516.svg
-      url: faqs/
+      img: https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/Cocktail/GrizzlyTemple.png
+      url: http://106.53.147.49:5050/2021/05/18/GrizzlyTemple/
     - name: 蓬松梦境
       icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f396.svg
-      url: /examples/
+      img: https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/Cocktail/FluffyDream.png
+      url: http://106.53.147.49:5050/2021/05/18/FluffyDream/
     - name: 黄金云朵
       icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f389.svg
-      url: /contributors/
+      img: https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/Cocktail/SunShineCloud.png
+      url: http://106.53.147.49:5050/2021/05/18/SunShineCloud/
     - name: 钴色鹅绒
       icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
-      url: /archives/
-    - name: 长岛冰茶
+      img: https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/Cocktail/CobaltVelvet.png
+      url: http://106.53.147.49:5050/2021/05/18/CobaltVelvet/
+    - name: 糖衣炮弹
       icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9ec.svg
-      url: https://github.com/volantis-x/hexo-theme-volantis/
+      img: https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/Cocktail/SugarBash.png
+      url: http://106.53.147.49:5050/2021/05/18/SugarRush/
 
 # 友链
 pages:
@@ -181,7 +182,7 @@ comments:
 # 侧边栏
 sidebar:
   # 主页、分类、归档等独立页面
-  for_page: [blogger, category, tagcloud]
+  for_page: [blogger, category, webinfo]
   # layout: docs/post 这类文章页面
   for_post: [toc]
   # 侧边栏组件库
@@ -199,7 +200,7 @@ sidebar:
       jinrishici: true # 诗词循环组件
       social:
         - img: https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/Icon/Steam.png # 个人Steam主页
-          url: https://y.qq.com/n/yqq/playlist/7994877968.html/
+          url: https://steamcommunity.com/profiles/76561198258115291/
         - img: https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/Icon/Pixiv.png   
           url: https://www.pixiv.net/users/16929871
         - img: https://imagehost-1304293966.cos.ap-guangzhou.myqcloud.com/Icon/Github.png # 个人Github
@@ -420,19 +421,19 @@ plugins:
   # APlayer is only available in mainland China.
   # APlayer config: https://github.com/metowolf/MetingJS
   aplayer:
-    enable: #true
+    enable: true
     js:
       aplayer: https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js
       meting: https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js
     # Required
-    server: netease   # netease, tencent, kugou, xiami, baidu
+    server: tencent   # netease, tencent, kugou, xiami, baidu
     type: playlist    # song, playlist, album, search, artist
-    id: 3175833810    # song id / playlist id / album id / search keyword
+    id: 7994877968 #3175833810    # song id / playlist id / album id / search keyword
     # Optional
     fixed: false      # enable fixed mode
     theme: '#1BCDFC'  # main color
     autoplay: false   # audio autoplay
-    order: list       # player play order, values: 'list', 'random'
+    order: random       # player play order, values: 'list', 'random'
     loop: all         # player loop play, values: 'all', 'one', 'none'
     volume: 0.7       # default volume, notice that player will remember user setting, default volume will not work after user set volume themselves
     list_max_height: 320px # list max height
@@ -715,4 +716,4 @@ seo:
     category: noindex,follow
     tag: noindex,follow
     # robots can be written in front-matter
-############################### SEO ############################### > end
+    ############################### SEO ############################### > end
